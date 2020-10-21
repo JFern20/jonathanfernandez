@@ -172,8 +172,14 @@ button:focus {
     max-width: 500px;
 }
 
-.btn {
-    padding: 15px 32px;
+.button{  
+ border-radius: 10px;
+  border:3px solid;
+
+}
+
+.btn {  
+    padding: 10px 15px;
     font-size: 14px;
     font-weight: 700;
     transition: all 0.5s;
@@ -530,6 +536,8 @@ button:focus {
     padding-bottom: 0px;
 }
 
+
+
 .work_menu li a {
     cursor: pointer;
     display: block;
@@ -544,10 +552,16 @@ button:focus {
     margin-top: 5px;
 }
 
+
+
 .work_menu a.active,
 .work_menu a:hover {
     color: #fff !important;
 }
+
+
+
+
 
 .work_item {
     position: relative;
